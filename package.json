@@ -1,0 +1,44 @@
+{
+  "name": "vue3-script2",
+  "version": "0.1.0",
+  "description": "Vue 3 compatible vue-script2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paaksing/vue3-script2.git"
+  },
+  "keywords": [
+    "vue3",
+    "script",
+    "injection",
+    "asynchronous",
+    "async",
+    "loading",
+    "loader",
+    "load",
+    "spa",
+    "vuejs",
+    "vue",
+    "plugin",
+    "component"
+  ],
+  "author": "paaksing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paaksing/vue3-script2/issues"
+  },
+  "homepage": "https://github.com/paaksing/vue3-script2#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "typescript": "^4.2.4",
+    "vue": "3.0.0"
+  }
+}
