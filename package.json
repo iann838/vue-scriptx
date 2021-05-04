@@ -1,7 +1,7 @@
 {
-  "name": "vue3-script2",
-  "version": "0.1.0",
-  "description": "Vue 3 compatible vue-script2",
+  "name": "vue-scriptx",
+  "version": "0.2.0",
+  "description": "Bring back <script> tag to your Vue project.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepublish": "tsc",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paaksing/vue3-script2.git"
+    "url": "git+https://github.com/paaksing/vue-scriptx.git"
   },
   "keywords": [
     "vue3",
@@ -30,9 +30,9 @@
   "author": "paaksing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paaksing/vue3-script2/issues"
+    "url": "https://github.com/paaksing/vue-scriptx/issues"
   },
-  "homepage": "https://github.com/paaksing/vue3-script2#readme",
+  "homepage": "https://github.com/paaksing/vue-scriptx#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
