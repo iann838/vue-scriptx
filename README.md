@@ -7,7 +7,7 @@
 
 VueScriptX brings back the `<script>` tag to your Vue projects!
 
-This package is a modified version of [vue-scriptx](https://github.com/taoeffect/vue-scriptx), which lacks support for Vue 3.
+This package is inspired by [vue-script2](https://github.com/taoeffect/vue-script2).
 
 This tiny package should take care of all your declarative and imperative asynchronous loading needs. Nothing too complicated from what web devs already know.
 
@@ -17,9 +17,9 @@ If you like this package, a **star** to the repo is nice.
 
 ## Features
 
+- Support for **Vue 3** and **Typescript**.
 - Brings back `<script>` tag to your Vue projects as `<scriptx>`.
 - Global Vue property `$scriptx` for regular code access.
-- Typescript support, no additional tooling needed.
 - Choose asynchronous and ordered execution using `async` prop.
 - Prop `unload` handles callbacks after script being unmounted.
 
