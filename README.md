@@ -1,6 +1,6 @@
 # VueScriptX - Asynchrounous Script Loading for Vue
 
-VueScriptX brings back the `<script>` tag to your SPA (Single Page App)!
+VueScriptX brings back the `<script>` tag to your Vue projects!
 
 This package is a modified version of [vue-scriptx](https://github.com/taoeffect/vue-scriptx), which lacks support for Vue 3.
 
