@@ -1,6 +1,6 @@
 {
   "name": "vue-scriptx",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "VueScriptX brings back the <script> tag to your Vue projects!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
