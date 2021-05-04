@@ -1,5 +1,10 @@
 # VueScriptX - Asynchrounous Script Loading for Vue
 
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+<img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
+<img alt="Vue.js" src="https://img.shields.io/badge/vuejs-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D"/>
+<img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
+
 VueScriptX brings back the `<script>` tag to your Vue projects!
 
 This package is a modified version of [vue-scriptx](https://github.com/taoeffect/vue-scriptx), which lacks support for Vue 3.
@@ -12,11 +17,16 @@ If you like this package, a **star** to the repo is nice.
 
 ## Features
 
-- Brings back `<script>` tag to your Vue 3 project as `<scriptx>`.
+- Brings back `<script>` tag to your Vue projects as `<scriptx>`.
 - Global Vue property `$scriptx` for regular code access.
 - Typescript support, no additional tooling needed.
 - Choose asynchronous and ordered execution using `async` prop.
 - Prop `unload` handles callbacks after script being unmounted.
+
+## Requirements
+
+- Vue.js >= 3.0.0
+- Ecma version >= ES6
 
 ## Installation
 
