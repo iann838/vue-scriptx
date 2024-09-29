@@ -2,8 +2,15 @@
   "name": "vue-scriptx",
   "version": "0.2.5",
   "description": "VueScriptX brings back the <script> tag to your Vue projects!",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "." : {
+      "types": "dist/index.d.ts",
+      "default": "dist/index.js",
+    },
+  },
   "prepublish": "tsc",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
