@@ -1,15 +1,15 @@
 {
   "name": "vue-scriptx",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "VueScriptX brings back the <script> tag to your Vue projects!",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     "." : {
-      "types": "dist/index.d.ts",
-      "default": "dist/index.js",
-    },
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
   "prepublish": "tsc",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paaksing/vue-scriptx.git"
+    "url": "git+https://github.com/iann838/vue-scriptx.git"
   },
   "keywords": [
     "vue3",
@@ -34,18 +34,14 @@
     "plugin",
     "component"
   ],
-  "author": "paaksing",
+  "author": "Jian Huang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paaksing/vue-scriptx/issues"
+    "url": "https://github.com/iann838/vue-scriptx/issues"
   },
-  "homepage": "https://github.com/paaksing/vue-scriptx#readme",
+  "homepage": "https://github.com/iann838/vue-scriptx#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "eslint": "^7.25.0",
-    "eslint-plugin-vue": "^7.9.0",
     "typescript": "^4.2.4",
-    "vue": "3.0.0"
+    "vue": "^3.0.0"
   }
 }
